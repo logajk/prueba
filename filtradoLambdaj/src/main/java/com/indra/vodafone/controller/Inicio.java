@@ -22,8 +22,9 @@ public class Inicio {
 		PersonaBean p2 = new PersonaBean("Pi",20,Genero.MUJER);
 		PersonaBean p3 = new PersonaBean("Pablo",43,Genero.HOMBRE);
 		PersonaBean p4 = new PersonaBean("Pilar",35,Genero.MUJER);
+		PersonaBean p5 = new PersonaBean("Paco",16,Genero.HOMBRE); 
 		
-		List<PersonaBean> listadoPersonas = Arrays.asList(p1,p2,p3,p4);
+		List<PersonaBean> listadoPersonas = Arrays.asList(p1,p2,p3,p4,p5);
 		
 		System.out.println("Listado Original:");
 		for(PersonaBean p : listadoPersonas){
